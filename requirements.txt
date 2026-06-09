@@ -1,0 +1,36 @@
+# NUS Module Search Agent — dependencies
+# Install:  pip install -r requirements.txt
+# (Exact versions are frozen to requirements.lock.txt after a successful install.)
+
+# --- LangChain: core + agent framework ---
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langgraph
+
+# --- Embeddings: sentence-transformers (local, default) ---
+langchain-huggingface
+sentence-transformers
+
+# --- Vector store: Chroma (persistent, local) ---
+langchain-chroma
+chromadb
+
+# --- Pluggable LLM providers (local default now; cloud later) ---
+langchain-ollama
+langchain-anthropic
+langchain-openai
+
+# --- Config: load machine-specific settings from a local .env ---
+python-dotenv
+
+# --- Document parsing + page/slide rendering ---
+pymupdf          # fitz: per-page text extraction + page->PNG rendering
+python-docx      # .docx text/metadata (fallback + sanity checks)
+python-pptx      # .pptx text/metadata (fallback + sanity checks)
+pillow           # image handling for snapshots
+
+# --- Notebook ---
+jupyter
+ipykernel
