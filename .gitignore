@@ -12,6 +12,10 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
+# Local pyenv-virtualenv binding (machine-specific venv name; not portable).
+# Python version requirement is documented in the README instead.
+.python-version
+
 # macOS
 .DS_Store
 
