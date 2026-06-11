@@ -219,4 +219,9 @@ Claude or OpenAI can be swapped in with one env var (or one argument to
   languages or document types may need a different embedding model and chunking.
 - **Not a Q&A system.** It locates pages; it does not answer questions *about* the
   content or summarize it.
-```
+
+--- 
+
+## AI Assistance Disclosure
+
+Parts of this project were developed with assistance from generative AI tools.
